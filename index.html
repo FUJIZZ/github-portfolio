@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Léo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À Propos</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title"><span class="highlight">Léo LIN</span></h1>
+            <p class="hero-subtitle">Étudiant en Master Informatique</p>
+            <p class="hero-description">Passionné par le développement d'applications/logiciels performants et innovants</p>
+            <div class="hero-buttons">
+                <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+                <a href="#contact" class="btn btn-secondary">Me contacter</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/FUJIZZ" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/lin-leo-kai" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="apropos" class="about">
+        <div class="container">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Étudiant passionné en Master Informatique, je me spécialise dans le développement d'applications et de logiciels. </p>
+                    <p>Mon parcours universitaire m'a permis de maîtriser diverses technologies et méthodologies de développement.</p>
+                    <p>Je suis toujours motivé à l'idée d'apprendre de nouvelles choses afin d'améliorer mes compétences et de rester à jour sur les nouvelles technologies.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>3</h3>
+                        <p>Années d'études en informatique</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>10</h3>
+                        <p>Projets réalisés</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>8</h3>
+                        <p>Technologies maîtrisées</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="competences" class="skills">
+        <div class="container">
+            <h2 class="section-title">Mes Compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Langages de programmation</h3>
+                    <p>Java, Python, C, C++, OCaml, Bash</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Développement Web</h3>
+                    <p>HTML, CSS, JavaScript, EJS, jQuerry, Node.js</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Bases de données</h3>
+                    <p>PostgreSQL</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Outils & DevOps</h3>
+                    <p>Git, GitHub, GitLab, Docker, VSCode, UML, E/R, E/A</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>Méthodologies</h3>
+                    <p>Scrum</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Frameworks & Librairies</h3>
+                    <p>Express.js, JUnit</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projets" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/meeting_planner.png" alt="Meeting Planner">
+                    </div>
+                    <div class="project-content">
+                        <h3>Meeting Planner</h3>
+                        <p>Développement d'une application web complète avec architecture client-serveur, gestion d'utilisateurs et interface responsive.</p>
+                        <p> Gestion de réunions : plannification, réservation, notifications par emails. </p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Node.js</span>
+                            <span>Express</span>
+                            <span>PostgreSQL</span>
+                            <span>EJS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/keyboard_analyzer.png" alt="Keyboard Analyzer">
+                    </div>
+                    <div class="project-content">
+                        <h3>Keyboard Analyzer</h3>
+                        <p>Logiciel d'analyse de corpus de texte, puis analyse de ce corpus sur une disposition clavier spécifique. Utilisation des design patterns.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Design Patterns</span>
+                            <span>MVC</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/FUJIZZ/Keyboard-Analyzer" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/big_match.png" alt="Big Match">
+                    </div>
+                    <div class="project-content">
+                        <h3>Big Match</h3>
+                        <p>Conception et implémentation d'une base de données relationnelle optimisée avec requêtes complexes et procédures stockées.
+                        <p>BDD pour une application de rencontre.</p>
+                        </p>
+                        <div class="project-tags">
+                            <span>PostgreSQL</span>
+                            <span>E/R</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/FSH.png" alt="FSH">
+                    </div>
+                    <div class="project-content">
+                        <h3>FSH</h3>
+                        <p>Version allégée de shell bash, gestion des commandes, des appels systèmes, des erreurs.</p>
+                        <div class="project-tags">
+                            <span>Bash</span>
+                            <span>C</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/FUJIZZ/fsh" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/crazy_plumber.png" alt="crazy plumber">
+                    </div>
+                    <div class="project-content">
+                        <h3>Crazy Plumber</h3>
+                        <p>Jeu casse tête basé sur la gestion de tuyaux et d'eau.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv" class="cv-section">
+        <div class="container">
+            <h2 class="section-title">Mon CV</h2>
+            <div class="cv-content">
+                <div class="cv-preview">
+                    <i class="fas fa-file-pdf"></i>
+                    <h3>Curriculum Vitae</h3>
+                    <a href="assets/cv.pdf" download class="btn btn-primary">
+                        <i class="fas fa-download"></i> Télécharger le CV
+                    </a>
+                    <p class="cv-note">Format PDF - Dernière mise à jour : Octobre 2025</p>
+                </div>
+                
+                <div class="cv-highlights">
+                    <h3>Parcours</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <div class="timeline-content">
+                                <h4>Master Informatique Langage et Programmation</h4>
+                                <h5>Université de Paris Cité</h5>
+                                <p>Formation en développement logiciel, architecture système et gestion de projet</p>
+                                <span>2024 - 2025</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <div class="timeline-content">
+                                <h4>Licence Informatique</h4>
+                                <h5>Université de Paris Cité</h5>
+                                <p>Fondamentaux de la programmation, algorithmique et bases de données</p>
+                                <span>2021 - 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Me Contacter</h2>
+            <div class="contact-content-centered">
+                <div class="contact-info">
+                    <p>Je suis actuellement en recherche d'un stage dans l'IT, de 2-3 mois, dans la période de juin à août. N'hésitez pas à me contacter pour toute opportunité !</p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:linleokai@gmail.com">linleokai@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/lin-leo-kai" target="_blank">linkedin.com/in/lin-leo-kai</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/FUJIZZ" target="_blank">github.com/FUJIZZ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Léo LIN - Portfolio. Tous droits réservés.</p>
+            <div class="footer-links">
+                <a href="https://github.com/FUJIZZ" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/lin-leo-kai" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
